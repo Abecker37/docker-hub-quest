@@ -29,4 +29,4 @@ jobs:
         with:
           push: true
           context: "{{defaultContext}}:client"
-          tags: ${{ secrets.abecker37 }}/app:latest
+          tags: abecker37/app:latest
